@@ -1,0 +1,10 @@
+# credentials and runtime state never belong in git
+.secrets/
+*.db
+*.db-wal
+*.db-shm
+__pycache__/
+*.pyc
+.venv/
+.env
+zovo_profile/
